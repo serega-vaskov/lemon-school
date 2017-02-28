@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	font-family: sans-serif;
+
+}
+body {
+			background-color: white;
+
+		}
+	header,
+	footer	{
+		background-color: #736356;
+		padding: 20px;
+}
+.a1 {
+		background-color: #7DA7D9;
+		padding: 20px;
+		float: right;
+	}
+.a2 {
+	background-color: #7DA7D9;
+	padding: 20px;
+	float: left;	
+	}
+div {
+	color: black;
+	margin: 0px 150px;
+}	
