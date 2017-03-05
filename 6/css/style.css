@@ -1,0 +1,79 @@
+@import 'reset.css';
+.wrapper {
+	background-color: #69d2e7;
+	border-top: 5px solid #fa6900;
+}
+.about-wrapper {
+	background-color: #F1F1F1;
+	height: 535px;
+	padding-top: 1px;
+}
+.about-us {
+	background-color: white;
+	height: 280px;
+	width: 835px;
+	padding: 45px;
+	border-radius: 8px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -100px;
+	box-shadow: 0px 0px 5px 0px;
+}
+.content {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	padding-top: 35px;
+}
+.logo {
+	display: block;
+	width: 250px;
+}
+.logo img {
+	float: left;
+	margin-right: 11px;
+}
+.company-name,
+.company-description {
+	display: block;
+	white-space: nowrap;
+}
+.company-name {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.company-description {
+	font-size: 17px;
+}
+.hello {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 94px;
+	padding-bottom: 180px;
+}
+.hello_title {
+	font-size: 84px;
+	line-height: 1em;
+}
+.hello_description {
+	font-size: 31px;
+	line-height: 1em;
+}
+h1 {
+	padding-bottom: 50px;
+	text-align: center;
+}
+p {
+	padding-top: 20px;
+	text-align: center;
+	}
+hr {
+	margin-left: auto;
+	margin-right: auto;
+	width: 380px;
+	}
