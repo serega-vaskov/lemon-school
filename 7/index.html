@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+		margin: 0;
+		padding-top: 10px;
+		font-size: 30px;
+		font-family: sans-serif;
+	}
+	li {
+		list-style-type: none;
+	}
+	li::before {
+		content: "★";
+		padding-right: 10px;
+	}
+	li a {
+		color: black;
+		text-decoration: none;
+		border-bottom: 2px solid;
+		padding-bottom: 1px;
+		}
+	.spisok li::before {
+		content: "❤";
+	}
+	.uroven li::before {
+		content: "☀";
+	}
+	.hover:hover {
+		color: grey;
+	}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#">Я простая ссылка</a></li>
+		<li><a href="#" class="hover">А я ссылка с ховером</a></li>
+	<ul class="spisok">
+			<li><a href="#">И еще одна ссылка уже во внутреннем списке</a></li>
+			<li><a href="#">И еще одна ссылка уже во внутреннем списке</a></li>
+			<li><a href="#">И еще одна ссылка уже во внутреннем списке</a></li>
+	<ul class="uroven">
+				<li><a href="#">Последняя ссылка в списке 3-го уровня</a></li>
+			</ul>
+				<li><a href="#">Вернемся назад</a></li>
+			</ul>
+		</ul>
+	<ul>
+				<li><a href="#">И еще назад</a></li>
+	</ul>
+</body>
+</html>
