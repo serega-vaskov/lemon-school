@@ -4,32 +4,38 @@
 	<meta charset="UTF-8">
 	<title>Batareiki</title>
 	<style>
-	.bat {
-
+		.bat {
+		border: 4px solid black;
+		color: black;
+		width: 150px;
+		height: 50px;
+		margin-bottom: 10px;
+		position: relative;
 	}
-	.red {
-		border: 4px solid black;
-		color: black;
-		width: 150px;
-		height: 50px;
-		margin-bottom: 10px;
-		background-color: red;
-		}
-	.yellow {
-		border: 4px solid black;
-		color: black;
-		width: 150px;
-		height: 50px;
-		margin-bottom: 10px;
+	.bat::before {
+		content: '';
+		height: 100%;
+		position: absolute;
+	}
+	.bat::after {
+		content: '';
+		position: absolute;
+		background-color: black;
+		height: 17px;
+		width: 8px;
+		left: 150px; top: 16px;
+	}
+	.yellow::before {
 		background-color: yellow;
+		width: 66%;
 	}
-	.green {
-		border: 4px solid black;
-		color: black;
-		width: 150px;
-		height: 50px;	
-		margin-bottom: 10px;
+	.green::before {
 		background-color: green;
+		width: 100%;
+	}
+	.red::before {
+		background-color: red;
+		width: 33%;
 	}
 	</style>
 </head>
